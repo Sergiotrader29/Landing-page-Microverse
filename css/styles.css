@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+#header-img{
+width: 300px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto;
+    /* position: fixed;
+    top: 20px;
+    left: 60px; */
+
+}
+/* #nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  } */
+  #nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar ul li{
+    margin-right: 80px;
+    list-style: none;
+    color: #0D0D0D;
+}
+#last-element{
+    margin-right: 0px;
+    /* background-color: black; */
+}
+#nav-bar ul li a{
+    
+    color: #0D0D0D;
+    text-decoration: none;
+}
+.title-wrapper{
+    text-align: center;
+    /* margin-top: 90px; */
+}
+#email{
+    margin: 15px;
+    padding: 5px 0;
+    width: 262px;
+}
+#submit{
+    padding: 5px 10px;
+    background-color: #FBAD04;
+    border: none;
+}
+.section-2-wrapper{
+    width: 900px;
+    /* align-items: center; */
+    margin: 0 auto;
+    /* margin-left: 400px; */
+}
+.service-1{
+    margin-top: 60px;
+}
+.service-2{
+    margin: 40px 0;
+}
+.service-3{
+    margin-bottom: 60px;
+}
+.section-3{
+    width: 700px;
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-left: 400px;
+}
+.pricing-container{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.pricing-wrapper{
+    width: 320px;
+    border: 1px solid #000000;
+}
+.pricing-wrapper h4{
+    padding: 15px 0;
+    text-align: center;
+    background-color: #DDDDDD;
+   
+}
+.pricing-wrapper h2{
+padding: 20px 0;
+text-align: center;
+}
+.pricing-wrapper div{
+    /* padding: 20px 0; */
+    text-align: center;
+    line-height: 25px;
+    }
+    .pricing-wrapper button{
+        /* padding: 20px 0; */
+        text-align: center;
+        padding: 10px;
+        width: 90px;
+        margin: 30px 100px 15px 0;
+        margin-left: 120px;
+        background-color: #F5BB0B;
+        
+}
+.footer-terms-and-privacy ul{
+display: flex;
+justify-content: end;
+}
+.footer-terms-and-privacy ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.footer-terms-and-privacy ul li a{
+    text-decoration: none;
+    color: #0D0D0D;
+    /* margin-right: 30px; */
+}
+.footer-container{
+    padding: 30px;
+    background-color: #DDDDDD;
+    margin-top: 40px;
+    text-align: right;
+}
+
+@media (max-width: 650px) {
+	.pricing-container{
+		display: flex;
+		flex-direction: column;
+	}
+  }
